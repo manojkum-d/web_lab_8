@@ -1,0 +1,82 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style for the search input */
+/* Style for the search input and "Sort by" select element */
+#searchInput,
+#sortBy {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    outline: none;
+    transition: all 0.3s ease; /* Smooth transition animation */
+}
+
+/* Add hover and focus styles */
+#searchInput:hover,
+#sortBy:hover,
+#searchInput:focus,
+#sortBy:focus {
+    background-color: rgba(255, 255, 255, 0.8); /* Change background color on hover and focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add shadow on hover and focus */
+}
+
+/* Style for each product container */
+/* Style for each product container */
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(68, 62, 62, 0.47);
+    transition: transform 0.3s ease; /* Add zoom-in transition */
+}
+
+/* Apply zoom-in effect on hover */
+.product:hover {
+    transform: scale(1.05); /* Scale up by 5% */
+}
+
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for product titles */
+h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Style for product descriptions */
+p {
+    margin: 5px 0;
+}
+
+/* Style for the search bar and sorting options */
+#searchInput,
+#sortBy {
+    font-size: 16px;
+}
+
+/* Style for the product list container */
+#productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
